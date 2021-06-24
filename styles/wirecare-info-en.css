@@ -11553,8 +11553,9 @@ img {
 }
 
 .title {
-	font-size: 1.5em;
+	font-size: 1.3em;
 	margin: 10px 0;
+	font-weight: 700
 }
 
 .subtitle {
