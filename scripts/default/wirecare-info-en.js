@@ -128,7 +128,7 @@ $(document).ready(function () {
 			window.pageYOffset > intelligenceOffsetTop - intelligenceInnerHeight &&
 			window.pageYOffset < intelligenceOffsetTop
 		) {
-			$('.block-intelligence .content').addClass('fadeIn')
+			$('.block-intelligence .content').addClass('fadeIn2')
 		}
 
 		window.onscroll = function () {
@@ -143,7 +143,7 @@ $(document).ready(function () {
 				window.pageYOffset > intelligenceOffsetTop - intelligenceInnerHeight &&
 				window.pageYOffset < intelligenceOffsetTop
 			) {
-				$('.block-intelligence .content').addClass('fadeIn')
+				$('.block-intelligence .content').addClass('fadeIn2')
 			}
 		}
 	}
