@@ -11647,15 +11647,15 @@ img {
 	/* font-size:.9em */
 }
 
-.block-secret .condition-item:last-child {
-	margin-top: -1.5em;
+.block-secret .condition-item > div:first-child {
+	max-height: 80px;
 }
 
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
 	.block-secret .condition-item:last-child {
 		margin-top: 0em;
 	}
-}
+} */
 
 .block-secret .wire-plug {
 	bottom: 5.3em;
@@ -11663,6 +11663,12 @@ img {
 
 .block-secret .wire-plug img {
 	width: auto;
+}
+
+@media (min-width: 472px) {
+	.block-secret .wire-plug {
+		bottom: 3.6em;
+	}
 }
 
 @media (min-width: 768px) {
@@ -12457,6 +12463,12 @@ img {
 	}
 }
 
+@media (min-width: 1440px) {
+	.block-info .card-title.faq {
+		margin-bottom: 1.1em;
+	}
+}
+
 .block-info .container > .footer {
 	display: flex;
 	justify-content: center;
@@ -12847,8 +12859,8 @@ img {
 	}
 
 	.block-slick .slick-item {
-		padding-top: 22.5rem;
-		padding-bottom: 22.5rem;
+		padding-top: 21.5rem;
+		padding-bottom: 21.5rem;
 	}
 
 	.block-step .step-item {

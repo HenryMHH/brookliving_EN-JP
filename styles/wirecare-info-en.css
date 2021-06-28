@@ -11671,9 +11671,9 @@ img {
 	}
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
 	.block-secret .wire-plug {
-		bottom: 3.6em;
+		bottom: 3em;
 	}
 }
 
