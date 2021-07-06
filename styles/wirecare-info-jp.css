@@ -12463,9 +12463,16 @@ img {
 	}
 }
 
+@media (min-width: 1441px) {
+	.block-info .card-title.support{
+		margin-bottom:2.7em;
+	}
+}
+
+
 @media (min-width: 1440px) {
 	.block-info .card-title.faq {
-		margin-bottom: 1.1em;
+		margin-bottom: 2.7em;
 	}
 }
 
